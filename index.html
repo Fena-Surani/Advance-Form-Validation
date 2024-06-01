@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- For Swal.fire -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <title>Document</title>
+    <link rel="stylesheet" href="stylec.css">
+    <script src="java.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div id="container">
+            <div id="card">
+                <h2 id="title">Register Now </h2>
+                <form autocomplete="off" id="form-ele">
+
+                    <div id="input-field">
+                        <label>First Name</label>
+                      <div id="firstname-field">
+                        <input type="text" id="first-name">
+
+                        <img src="warning-image.png" width="30" height="30" id="firstname-wrn">
+                        <p id="firstname-message">This Field is Required</p>
+                     </div>
+                    </div>
+
+                    <div id="input-field">
+                        <label>Last Name</label>
+                      <div id="lastname-field">
+                        <input type="text" id="lsat-name">
+
+                        <img src="warning-image.png" width="30" height="30" id="lastname-wrn">
+                        <p id="lastname-message">This Field is Required</p>
+                     </div>
+                    </div>
+
+
+                    <div id="input-field">
+                        <label>Email Address</label>
+                      <div id="email-field">
+                        <input type="email" id="email">
+
+                        <img src="warning-image.png" width="30" height="30" id="email-wrn">
+                        <p id="email-message">This Field is Required</p>
+                     </div>
+                    </div>
+
+                    <div id="input-field">
+                        <label>password</label>
+                      <div id="password-field">
+                        <input type="password" id="password">
+
+                        <img src="warning-image.png" width="30" height="30" id="password-wrn">
+                        <p id="password-message">This Field is Required</p>
+                        <div id="password-hint">
+                            <p id="password-header">Use for Password :</p>
+                            <p id="password-hint-text"> No user name </p>
+                        </div>
+
+                        <p id="lower-case">Password-Weak : Missing lower case</p>
+
+                        <p id="upper-case">Password-Weak : Missing upper case</p>
+
+                        <p id="number">Password-Weak : number</p>
+
+                        <p id="special-symbol">Password-Weak : Missing special-symbol</p>
+
+                        <div id="toggle">
+                             <input type="checkbox" value="show password" id="checkbox">
+                             <p id="checkbox-message">Show password</p>
+                        </div>
+
+                     </div>
+                    </div>
+                    <button id="btn"> SignUp</button>
+                </form>
+                <img src="undraw_website_u6x8.png" alt="" width="400" id="img">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
